@@ -1,0 +1,119 @@
+{
+  "user": [
+    {
+      "id": "123",
+      "name": "Ajeeth",
+      "age": "20",
+      "mail": "ajeeth@gmail.com",
+      "gender": "male",
+      "password": "12345"
+    },
+    {
+      "id": "e8a8",
+      "name": "Tharun S",
+      "mail": "tharun@gmail.com",
+      "age": "20",
+      "gender": "",
+      "password": "12345"
+    },
+    {
+      "id": "33ac",
+      "name": "Soaratai Mathi",
+      "mail": "s@gmail.com",
+      "age": "20",
+      "gender": "Female",
+      "password": "123"
+    }
+  ],
+  "cbe":[
+    {
+      "id":"456",
+      "rate":"5 STAR", 
+      "price":"500RS",
+      "img":"https://img.freepik.com/free-vector/hand-drawn-ipl-cricket-illustration_23-2149213601.jpg?t=st=1715338454~exp=1715342054~hmac=37e8fc3636b981ac4ddce8de4d681d05885f86aca884647efc3555ac1725927a&w=996",
+      "name":"Cricket",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    },
+    {"id":"654",
+    "rate":"4.5 STAR",
+    "price":"600RS",
+      "img":"https://img.freepik.com/premium-photo/soccer-scene-night-match-with-player-orange-blue-uniform-kicking-penalty-kick_207634-6634.jpg?w=996",
+      "name":"Football",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
+    },
+    {
+      "id":"564",
+      "price":"700RS",
+      "rate":"4 START",
+      "img":"https://img.freepik.com/premium-photo/sport-game-illustration-background_916191-121824.jpg?w=1060",
+      "name":"Vollyball",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    }
+  ],
+  
+  "ban":[
+    {
+      "id":"456",
+      "price":"500RS",
+      "rate":"5 STAR", 
+      "img":"https://img.freepik.com/free-vector/hand-drawn-ipl-cricket-illustration_23-2149213601.jpg?t=st=1715338454~exp=1715342054~hmac=37e8fc3636b981ac4ddce8de4d681d05885f86aca884647efc3555ac1725927a&w=996",
+      "name":"Cricket",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    },
+    {"id":"654",
+      "price":"400RS",
+      "rate":"4.5 STAR",
+      "img":"https://img.freepik.com/premium-photo/soccer-scene-night-match-with-player-orange-blue-uniform-kicking-penalty-kick_207634-6634.jpg?w=996",
+      "name":"Football",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
+    },
+    {
+      "id":"564",
+      "price":"600RS",
+      "rate":"4 START",
+      "img":"https://img.freepik.com/premium-photo/sport-game-illustration-background_916191-121824.jpg?w=1060",
+      "name":"Vollyball",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    },{
+      "id":"232",
+      "price":"300RS",
+      "rate":"4.5 STAR",
+      "img":"https://img.freepik.com/premium-photo/closeup-tennis-player-action-tennis-player-with-racket-tennis-player-stadium_179935-14541.jpg?w=1060",
+      "name":"Tennis",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    }
+  ],
+  "che":[
+    {
+      "id":"456",
+      "price":"450RS",
+      "rate":"5 STAR", 
+      "img":"https://img.freepik.com/premium-photo/stadium-background-with-green-field-lights-evening-clouds_1181070-30.jpg?w=1060",
+      "name":"Cricket",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    },
+    {"id":"654",
+      "price":"400RS",
+      "rate":"4.5 STAR",
+      "img":"https://img.freepik.com/free-photo/american-football-field_23-2151117450.jpg?t=st=1715344796~exp=1715348396~hmac=6a7ba64d89cef8e089987548c0ff182a2fccca88d34cafd674eddb64dcaca216&w=1060",
+      "name":"Football",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
+    },
+    {
+      "id":"564",
+      "price":"550RS",
+      "rate":"4 START",
+      "img":"https://img.freepik.com/premium-photo/sport-game-illustration-background_916191-121824.jpg?w=1060",
+      "name":"Vollyball",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    },
+    {
+      "id":"284",
+      "price":"600RS",
+      "rate":"5 STAR",
+      "img":"https://img.freepik.com/free-photo/portrait-woman-competing-olympic-games-championship_23-2151460420.jpg?t=st=1715344121~exp=1715347721~hmac=9f72a9fc918f504d71dc83f7700cee85924a0fb6cecdefdbfe14b7d205b62add&w=996",
+      "name":"Swimming",
+      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+    }
+  ]
+}

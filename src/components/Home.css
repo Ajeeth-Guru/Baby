@@ -1,0 +1,17 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/realistic-polygonal-background_23-2148922432.jpg?t=st=1715348283~exp=1715351883~hmac=b3a6e17c8870d85d9b226e8806ada463ee55ba06b805a83c7df237ad89ff92b9&w=996);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container img{
+    height: 500px;
+    width: 700px;
+}

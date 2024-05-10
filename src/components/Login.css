@@ -1,0 +1,41 @@
+.log-form{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    /* margin-top: 150px; */
+    margin-left: 630px;
+    line-height: 40px;
+    box-shadow: 5px 5px 10px 5px rgba(110, 110, 110, 0.726);
+    background-color: rgba(255, 248, 248, 0.534);
+    border-radius: 10px;
+}
+#inp1{
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+#inp2{
+    padding: 5px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+.btn-sub{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(14, 123, 173);
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+}
+.btn-sub:hover{
+    background-color: green;
+}   
