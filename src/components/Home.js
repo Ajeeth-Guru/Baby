@@ -24,6 +24,7 @@ export default function Home() {
     <div class="carousel-item active">
       <img src="https://themes.potenzaglobalsolutions.com/html/sitters/images/slider/home-01/01.jpg" class="d-block w-100 img-fluid transparent-image" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
+        
         <h1 className='para1'>We're the <span className='para1 text-primary'> best in town</span></h1>
         <div className='d-flex justify-content-evenly'><p className='para'><i class="fa-solid fa-circle-check"></i>Profssionals only</p>
         <p className='para'><i class="fa-solid fa-circle-check"></i>Profssionals only</p>
