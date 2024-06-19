@@ -14,6 +14,12 @@ import Product from './components/Product';
 import Stadium from './components/Stadium';
 import Stadium1 from './components/stadium1';
 import Stadium2 from './components/stadium2';
+import Sign1 from './components/Sign1';
+import Login1 from './components/Login1';
+import Nav1 from './components/Register';
+import Register from './components/Register';
+import Bill from './components/Bill';
+// import UserProfile from './components/UserProfile';
 
 
 function App() {
@@ -23,18 +29,20 @@ function App() {
       <Nav/>
       <Routes>
         <Route path='/' element={<Home/>}/> 
+        <Route path='/sign1' element={<Sign1/>}/>
+        <Route path='/login1' element={<Login1/>}/>
         <Route path='/about' element={<About/>}/> 
         <Route path='/login' element={<Login/>}/> 
+        <Route path='/register' element={<Register/>}/>
         <Route path='/sign' element={<Sign/>}/>
         <Route path='/product' element={<Product/>}>
-        <Route path='stadium' element={<Stadium/>}/>
-        <Route path='stadium1' element={<Stadium1/>}/>
-        <Route path='stadium2' element={<Stadium2/>}/>
+        <Route path='bill'element={<Bill/>}/>
         </Route>
         <Route path='/profile' element={<RequiredAuth><Profile/></RequiredAuth>}/>
       </Routes>
-      <Footer className="footer"></Footer>
+      {/* <Footer className="footer"></Footer> */}
       </Auth>
+      <Footer/>
     </div>
   );
 }

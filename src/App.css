@@ -36,29 +36,19 @@
     transform: rotate(360deg);
   }
 }
-.nav-item{
-  padding: 16px 32px;
-  height: 50px;
-  width: 100%;
-  background-color:blue;
-  }
-  .nav-item a{
-    text-decoration:none ;
-    color: azure ;
-    margin-right: 16px;
-  }
-  .nav-item a.active{
-    font-weight: 500;
-    background-color: rgb(0, 0, 8);
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid white;
-  }
-  .button{
+body{
+  /* background-color: #61dafb31; */
+  /* background-image: url(http://clipart-library.com/images/rcLo96GXi.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  /* .button{
     position:fixed;
     right:20px;
     bottom: 20px;
     border: 2px solid black;
     background-color: white;
     color: red;
-  }
+  } */

@@ -1,30 +1,144 @@
-.form{
-    height: 600px;
-    width: 300px;
+.button {
+  display: block;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin: 0;
+  overflow: hidden;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
+.button:before,
+.button:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  inset: 7px;
+}
+
+.button:before {
+  border: 4px solid #f0eeef;
+  transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+
+.button:after {
+  border: 4px solid #96daf0;
+  transform: scale(1.3);
+  transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  opacity: 0;
+}
+
+.button:hover:before,
+.button:focus:before {
+  opacity: 0;
+  transform: scale(0.7);
+  transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.button:hover:after,
+.button:focus:after {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 80ms,
+    transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 80ms;
+}
+
+.button-box {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.button-elem {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 17px 18px 0 18px;
+  transform: rotate(180deg);
+  fill: #f0eeef;
+}
+
+.button:hover .button-box,
+.button:focus .button-box {
+  transition: 0.4s;
+  transform: translateX(-56px);
+}
+
+.card-1 {
+    margin-top:100px !important; 
+    height:450px !important;
+    /* margin-left: 620px !important; */
+    width: 350px !important; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .card-1-header {
+    background-color: #333;
+    padding: 16px;
     text-align: center;
-    align-content: center;
-    margin-left: 630px;
-    line-height: 40px;
-    box-shadow: 5px 5px 10px 5px rgba(110, 110, 110, 0.726);
-    background-color: rgba(255, 248, 248, 0.534);
-    border-radius: 10px;
-}
-.input1{
-    padding: 5px;
-    width: 200px;
-    outline: none;
+  }
+  
+  .card-1-header .text-header {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .card-1-body {
+    padding: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    margin-left: 13px;
+    font-size: 16px;
     border: none;
-    border-radius: 10px;
-    
-}
-.input2{
-    padding: 5px;
-    width: 200px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    
-}
-.font{
-    color: red;
-}
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+    color: #333;
+  }
+ .link-log{ 
+    text-decoration: none;
+    margin-left: 10px;
+ }

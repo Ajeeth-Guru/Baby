@@ -4,7 +4,7 @@ import { useAuth } from './Auth'
 import { useNavigate } from 'react-router-dom'
 import'./Login.css'
 
-export default function Login() {
+export default function Login1() {
   const[email,setMail]=useState('')
   const[password,setPassword]=useState('')
   const[list,setList]=useState([])
@@ -12,7 +12,7 @@ export default function Login() {
   const Auth=useAuth()
   const Navigate=useNavigate()
   useEffect(()=>{
-    axios.get('http://localhost:3001/worker')
+    axios.get('http://localhost:3001/user')
     .then(res=>{setList(res.data)})
     .catch(err=>{console.log(err)})
   },[])
@@ -38,7 +38,7 @@ export default function Login() {
     <div className='parent-lg '>
        <div class="login-card">
   <div class="card-header">
-    <div class="log"> Worker Login</div>
+    <div class="log">User Login</div>
   </div>
   <form onSubmit={handleLogin}>
     <div class="form-group">
@@ -51,10 +51,11 @@ export default function Login() {
     </div>
     <div class="form-group">
  <button className='btn-suP' onClick={handleLogin}>Login</button>
+ {error}
 
     </div>
   </form>
-  {error}
+
 </div>
 
 

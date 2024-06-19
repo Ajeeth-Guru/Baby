@@ -1,0 +1,19 @@
+    /* .nav-item{
+        padding: 16px 32px;
+        height: 50px;
+        width: 100%;
+        background-color:blue;
+        } */
+        .nav-item a{
+        text-decoration:none ;
+        color: black;
+        margin-right: 16px;
+        }
+        .nav-item a.active{
+        font-weight: 500;
+        color: yellow;
+        background-color:#214d63;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid white;
+        }

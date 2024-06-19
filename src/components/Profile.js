@@ -11,8 +11,8 @@ export default function Profile() {
     }
   return (
     <div>
-    <h1>WELCOME {Auth.user}</h1>  
-    <button onClick={handleLogout}>LOGOUT</button>
+    <h1>Welcome {Auth.user}</h1>  
+    <button className='btn' onClick={handleLogout}>LOGOUT</button>
     </div>
   )
 }

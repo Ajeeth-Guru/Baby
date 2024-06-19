@@ -1,119 +1,84 @@
 {
-  "user": [
+  "worker": [
     {
       "id": "123",
+      "name": "Henita",
+      "email": "henita@gmail.com",
+      "image": "https://img.freepik.com/free-photo/portrait-beautiful-young-woman-with-curly-hair-brown-hat_1142-42780.jpg?t=st=1716116250~exp=1716119850~hmac=c168185847cbdd2ee5ac6d2477e70b2d9e21e55b9d6d979b01b1dd2d6bed0041&w=740",
+      "experience": "2",
+      "password": "12345"
+    },
+    {
+      "id": "456",
+      "name": "Lolita",
+      "email": "lolita@gmail.com",
+      "image": "https://img.freepik.com/free-photo/portrait-beautiful-girl-yellow-coat-with-backpack_1142-55171.jpg?t=st=1716120400~exp=1716124000~hmac=01d7d3257363aa65ae9f1c647c51a57d780c9c5227b9718cfa6b330831bc3033&w=740",
+      "experience": "1.5",
+      "password": "12345"
+    },
+    {
+      "id": "789",
+      "name": "Winnings",
+      "email": "winnings@gmail.com",
+      "image": "https://img.freepik.com/free-photo/portrait-beautiful-girl-with-long-braids-blue-jacket_1142-43600.jpg?t=st=1716120832~exp=1716124432~hmac=11adeb8f2a80456528fe2dc1a59a62fa8b667d7a22042531a266e186faacc4b0&w=740",
+      "experience": "1.7",
+      "password": "12345"
+    },
+    {
+      "id": "a615",
+      "name": "Lara",
+      "email": "lara@gmail.com",
+      "experience": "1",
+      "image": "https://img.freepik.com/free-photo/rendering-bee-anime-character_23-2150963598.jpg?t=st=1716365888~exp=1716369488~hmac=e0b3f967cf3248ca06ed10cf06d400cc1c883d645638fda4f1d3ca277325a661&w=740",
+      "password": "123455"
+    },
+    {
+      "id": "4e9d",
+      "name": "Roselin",
+      "email": "roselin@gmail.com",
+      "experience": "1.5",
+      "image": "https://img.freepik.com/free-photo/3d-rendering-female-photographer-with-camera-her-hand_1142-38953.jpg?t=st=1716387696~exp=1716391296~hmac=96ca7b94f4b8addf7a79bf7bef09c5119c9e346d99b4b5aa0e04b703c066f652&w=740",
+      "password": "12345"
+    }
+  ],
+  "post": [
+    {
+      "id": "123",
+      "name": "Henita",
+      "money": 40,
+      "time": "2"
+    },
+    {
+      "id": "456",
+      "name": "Lolita",
+      "money": 80,
+      "time": "4"
+    },
+    {
+      "id": "789",
+      "name": "Winnings",
+      "money": 60,
+      "time": "3"
+    },
+    {
+      "id": "123",
+      "name": "Henita",
+      "money": 40,
+      "time": "2"
+    },
+    {
+      "id": "456",
+      "name": "Lolita",
+      "money": 40,
+      "time": "2"
+    }
+  ],
+  "user": [
+    {
+      "id": "b250",
       "name": "Ajeeth",
-      "age": "20",
-      "mail": "ajeeth@gmail.com",
-      "gender": "male",
+      "email": "ajeeth@gmail.com",
       "password": "12345"
-    },
-    {
-      "id": "e8a8",
-      "name": "Tharun S",
-      "mail": "tharun@gmail.com",
-      "age": "20",
-      "gender": "",
-      "password": "12345"
-    },
-    {
-      "id": "33ac",
-      "name": "Soaratai Mathi",
-      "mail": "s@gmail.com",
-      "age": "20",
-      "gender": "Female",
-      "password": "123"
-    }
-  ],
-  "cbe":[
-    {
-      "id":"456",
-      "rate":"5 STAR", 
-      "price":"500RS",
-      "img":"https://img.freepik.com/free-vector/hand-drawn-ipl-cricket-illustration_23-2149213601.jpg?t=st=1715338454~exp=1715342054~hmac=37e8fc3636b981ac4ddce8de4d681d05885f86aca884647efc3555ac1725927a&w=996",
-      "name":"Cricket",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    },
-    {"id":"654",
-    "rate":"4.5 STAR",
-    "price":"600RS",
-      "img":"https://img.freepik.com/premium-photo/soccer-scene-night-match-with-player-orange-blue-uniform-kicking-penalty-kick_207634-6634.jpg?w=996",
-      "name":"Football",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
-    },
-    {
-      "id":"564",
-      "price":"700RS",
-      "rate":"4 START",
-      "img":"https://img.freepik.com/premium-photo/sport-game-illustration-background_916191-121824.jpg?w=1060",
-      "name":"Vollyball",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    }
-  ],
-  
-  "ban":[
-    {
-      "id":"456",
-      "price":"500RS",
-      "rate":"5 STAR", 
-      "img":"https://img.freepik.com/free-vector/hand-drawn-ipl-cricket-illustration_23-2149213601.jpg?t=st=1715338454~exp=1715342054~hmac=37e8fc3636b981ac4ddce8de4d681d05885f86aca884647efc3555ac1725927a&w=996",
-      "name":"Cricket",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    },
-    {"id":"654",
-      "price":"400RS",
-      "rate":"4.5 STAR",
-      "img":"https://img.freepik.com/premium-photo/soccer-scene-night-match-with-player-orange-blue-uniform-kicking-penalty-kick_207634-6634.jpg?w=996",
-      "name":"Football",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
-    },
-    {
-      "id":"564",
-      "price":"600RS",
-      "rate":"4 START",
-      "img":"https://img.freepik.com/premium-photo/sport-game-illustration-background_916191-121824.jpg?w=1060",
-      "name":"Vollyball",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    },{
-      "id":"232",
-      "price":"300RS",
-      "rate":"4.5 STAR",
-      "img":"https://img.freepik.com/premium-photo/closeup-tennis-player-action-tennis-player-with-racket-tennis-player-stadium_179935-14541.jpg?w=1060",
-      "name":"Tennis",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    }
-  ],
-  "che":[
-    {
-      "id":"456",
-      "price":"450RS",
-      "rate":"5 STAR", 
-      "img":"https://img.freepik.com/premium-photo/stadium-background-with-green-field-lights-evening-clouds_1181070-30.jpg?w=1060",
-      "name":"Cricket",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    },
-    {"id":"654",
-      "price":"400RS",
-      "rate":"4.5 STAR",
-      "img":"https://img.freepik.com/free-photo/american-football-field_23-2151117450.jpg?t=st=1715344796~exp=1715348396~hmac=6a7ba64d89cef8e089987548c0ff182a2fccca88d34cafd674eddb64dcaca216&w=1060",
-      "name":"Football",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"
-    },
-    {
-      "id":"564",
-      "price":"550RS",
-      "rate":"4 START",
-      "img":"https://img.freepik.com/premium-photo/sport-game-illustration-background_916191-121824.jpg?w=1060",
-      "name":"Vollyball",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
-    },
-    {
-      "id":"284",
-      "price":"600RS",
-      "rate":"5 STAR",
-      "img":"https://img.freepik.com/free-photo/portrait-woman-competing-olympic-games-championship_23-2151460420.jpg?t=st=1715344121~exp=1715347721~hmac=9f72a9fc918f504d71dc83f7700cee85924a0fb6cecdefdbfe14b7d205b62add&w=996",
-      "name":"Swimming",
-      "content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
     }
   ]
 }
